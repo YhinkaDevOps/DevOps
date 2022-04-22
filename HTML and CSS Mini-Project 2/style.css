@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+display: flex;
+align-items: center;
+ }
+
+ img{
+     height: 45px;
+ }
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li a{
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    border-bottom: 5px solid black;
+}
+
+
+.menu span{
+    background-color: orangered;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+
+.main{
+    font-size: large;
+    background-image: url(/model.png);
+    width: 100%;
+    height: 420px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5em;
+    padding-left: 20em;
+}
+
+.top{
+    color: red;
+    padding-bottom: 15px;
+}
+
+.main h1{
+    color: rgb(16, 16, 48);
+}
+
+.down{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.learn_btn{
+    color: white;
+    background-color: orangered;
+    padding: 7px 15px 7px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.learn_btn:hover{
+    cursor: pointer;
+    background-color: rgb(66, 48, 48);
+}
+
+.Hire_btn{
+    color: black;
+    padding: 7px 15px 7px;
+    background-color: transparent;
+    border: 1px solid rgb(212, 206, 206);
+    border-radius: 5px;
+    transition: all ease 0.2s;
+}
+
+.Hire_btn:hover{
+    cursor: pointer;
+    background-color: rgb(145, 137, 137);
+    transition: all ease 0.2s;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.171);
+    height: 127px;
+}
+
+.footer h3{
+    padding-left: 150px;
+}
+
+.footer h4{
+    padding-left: 350px;
+}
+
+span{
+    background-color: orangered;
+    padding: 7px;
+    margin-right: 50px;
+    
+}
+
+span a{
+    color: white;
+    text-decoration: none;
+}
+
+span:hover{
+    background-color: black;
+    transition: all ease 0.2s;
+}
