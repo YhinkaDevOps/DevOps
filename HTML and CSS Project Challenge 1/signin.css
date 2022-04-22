@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    margin: 0;
+    padding: 0;   
+    margin-top: 0.5em;
+    background-color: black;
+    margin-left: 15em;
+}
+
+.signin_container{
+   height: 50vh;
+   width:100%
+}
+
+.purple{
+    background-color:rgb(138, 48, 221);
+    padding: 100px ;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 100px;
+    height: 200px;
+    padding-bottom: 19em;
+}
+
+.white{
+    background-color: white;
+   padding: 20px 0px 15px 40px;
+   border-radius: 10px;
+   width:390px;
+    margin-left: 80px;
+}
+
+#email_input{
+    height: 30px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    padding: 12px;
+    display: inline-block;
+    margin-left: 19px;
+    font-size: 20px;
+}
+
+#password_input{
+    height: 30px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.151);
+    border-radius: 2px;
+    padding: 12px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#password_input{
+    font-size: 20px;
+}
+
+#signin h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+   margin-left: 11px;
+   font-size: 23px;
+   font-family: 'Poppins', sans-serif;
+}
+
+#signin #check_box{
+    margin-left: 20px;
+}
+
+#sign_in{
+    padding: 17px 100px 17px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(78, 78, 139);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 19rem;
+}
+
+#sign_in:hover{
+    cursor: pointer;
+    background-color: lightslategray;
+    color: black;
+    transition: all ease 0.2s;
+}
+
+#homepage{
+    text-decoration: none;
+    margin-left: 8rem;
+    color: rgb(78, 78, 139); 
+}
+
+#homepage:hover{
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: lightslategray;
+    padding: 4px;
+    border-radius: 2px;
+
+}
+
