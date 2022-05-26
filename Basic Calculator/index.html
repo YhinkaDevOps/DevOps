@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Basic Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input class="outscreen" type="text" placeholder="0">
+        <div class="buttons">
+            <button class="btn-style"  id="clear" onclick="Clear()">AC</button>
+            <button class="btn-style" id="DEL"onclick="DEL()">DEL</button>
+            <button class="btn-style"onclick="display('/')">/</button>
+            <button class="btn-style"onclick="display('*')">*</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button class="btn-style"onclick="display('-')">-</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('3')">3</button>
+            <button class="btn-style" onclick="display('+')">+</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button class="btn-style" onclick="display('.')">.</button>
+            <button onclick="display('(')">(</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="display(')')">)</button>
+            <button class="btn-style" id="equals" onclick="calculate()">=</button>
+    </div>
+
+<script>
+    let outscreen = document.querySelector('.outscreen');
+    let container = document.querySelector('.container');
+   
+    function display(num){
+    outscreen.value+= num;
+  };
+  function calculate(){
+      try{
+          outscreen.value = eval(outscreen.value);
+      }
+      catch(err)
+      {
+          outscreen.value = 'Error!!'
+      }
+  }
+  function Clear(){
+      outscreen.value = "";
+  }
+
+  function DEL(){
+      outscreen.value = outscreen.value.slice(0,-1);
+  }
+</script>
+
+</body>
+</html>
